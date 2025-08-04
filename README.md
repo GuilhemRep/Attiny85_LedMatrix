@@ -1,5 +1,5 @@
-# Attiny85_LedMatrix
+# LedMatrix
 
-Code to control a 5*4 LED matrix with an Attiny85 microcontroller.
+Code for a $5\times 4$ LED matrix, designed to run on an Attiny85 microcontroller.
 
-The LEDs are multiplexed using the 5 outputs of the Attiny. Some animations are displayed, without any additional library.
+The LEDs are multiplexed using five outputs, and animations are displayed without additional libraries.
