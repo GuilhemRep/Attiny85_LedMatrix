@@ -32,7 +32,7 @@ const int led[nombreLeds][2] = {
 
 
 
-bool fig[nombreLeds]={
+bool fig[nombreLeds] ={
 _,_,_,_,
 _,_,_,_,
 _,_,_,_,
@@ -41,42 +41,42 @@ _,_,_,_,
 };
 
 
-const bool a[nombreLeds]={
+const bool a[nombreLeds] PROGMEM ={
 _,O,O,O,
 O,_,_,O,
 O,_,_,O,
 O,O,O,O,
 O,_,_,O
 };
-const bool b[nombreLeds]={
+const bool b[nombreLeds] PROGMEM ={
 O,O,O,_,
 O,_,_,O,
 O,O,O,_,
 O,_,_,O,
 O,O,O,_
 };
-const bool c[nombreLeds]={
+const bool c[nombreLeds] PROGMEM ={
 _,O,O,_,
 O,_,_,O,
 O,_,_,_,
 O,_,_,O,
 _,O,O,_
 };
-const bool d[nombreLeds]={
+const bool d[nombreLeds] PROGMEM ={
 O,O,O,_,
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 O,O,O,_
 };
-const bool e[nombreLeds]={
+const bool e[nombreLeds] PROGMEM ={
 O,O,O,O,
 O,_,_,_,
 O,O,O,_,
 O,_,_,_,
 O,O,O,O
 };
-const bool f[nombreLeds]={
+const bool f[nombreLeds] PROGMEM ={
 O,O,O,O,
 O,_,_,_,
 O,O,O,_,
@@ -84,7 +84,7 @@ O,_,_,_,
 O,_,_,_
 };
 
-const bool g[nombreLeds]={
+const bool g[nombreLeds] PROGMEM ={
 _,O,O,O,
 O,_,_,_,
 O,_,O,O,
@@ -92,133 +92,133 @@ O,_,_,O,
 _,O,O,O
 };
 
-const bool h[nombreLeds]={
+const bool h[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,_,O,
 O,O,O,O,
 O,_,_,O,
 O,_,_,O
 };
-const bool i[nombreLeds]={
+const bool i[nombreLeds] PROGMEM ={
 O,O,O,_,
 _,O,_,_,
 _,O,_,_,
 _,O,_,_,
 O,O,O,_
 };
-const bool j[nombreLeds]={
+const bool j[nombreLeds] PROGMEM ={
 _,O,O,O,
 _,_,_,O,
 _,_,_,O,
 O,_,_,O,
 _,O,O,_
 };
-const bool k[nombreLeds]={
+const bool k[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,O,_,
 O,O,_,_,
 O,_,O,_,
 O,_,_,O
 };
-const bool l[nombreLeds]={
+const bool l[nombreLeds] PROGMEM ={
 O,_,_,_,
 O,_,_,_,
 O,_,_,_,
 O,_,_,_,
 O,O,O,O
 };
-const bool m[nombreLeds]={
+const bool m[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,O,O,O,
 O,O,O,O,
 O,_,_,O,
 O,_,_,O
 };
-const bool n[nombreLeds]={
+const bool n[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,O,_,O,
 O,_,O,O,
 O,_,_,O,
 O,_,_,O
 };
-const bool o[nombreLeds]={
+const bool o[nombreLeds] PROGMEM ={
 _,O,O,O,
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 _,O,O,_
 };
-const bool p[nombreLeds]={
+const bool p[nombreLeds] PROGMEM ={
 O,O,O,O,
 O,_,_,O,
 O,O,O,_,
 O,_,_,_,
 O,_,_,_
 };
-const bool q[nombreLeds]={
+const bool q[nombreLeds] PROGMEM ={
 _,O,O,_,
 O,_,_,O,
 O,_,_,O,
 _,O,O,_,
 _,_,_,O
 };
-const bool r[nombreLeds]={
+const bool r[nombreLeds] PROGMEM ={
 O,O,O,_,
 O,_,_,O,
 O,_,_,O,
 O,O,O,_,
 O,_,_,O
 };
-const bool s[nombreLeds]={
+const bool s[nombreLeds] PROGMEM ={
 _,O,O,O,
 O,_,_,_,
 _,O,O,_,
 _,_,_,O,
 O,O,O,_
 };
-const bool t[nombreLeds]={
+const bool t[nombreLeds] PROGMEM ={
 O,_,_,_,
 O,O,O,_,
 O,_,_,_,
 O,_,_,O,
 _,O,O,_
 };
-const bool u[nombreLeds]={
+const bool u[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 _,O,O,_
 };
-const bool v[nombreLeds]={
+const bool v[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 _,O,_,O,
 _,_,O,_
 };
-const bool w[nombreLeds]={
+const bool w[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,_,O,
 O,_,_,O,
 O,O,O,O,
 _,O,O,_
 };
-const bool x[nombreLeds]={
+const bool x[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,O,_,O,
 _,O,O,_,
 O,_,_,O,
 O,_,_,O
 };
-const bool y[nombreLeds]={
+const bool y[nombreLeds] PROGMEM ={
 O,_,_,O,
 O,_,_,O,
 _,O,O,O,
 _,_,_,O,
 _,O,O,_
 };
-const bool z[nombreLeds]={
+const bool z[nombreLeds] PROGMEM ={
 O,O,O,O,
 _,_,_,O,
 _,O,O,_,
@@ -226,7 +226,7 @@ O,_,_,_,
 O,O,O,O
 };
 
-const bool esp[nombreLeds]={
+const bool esp[nombreLeds] PROGMEM ={
 _,_,_,_,
 _,_,_,_,
 _,_,_,_,
@@ -234,92 +234,43 @@ _,_,_,_,
 _,_,_,_
 };
 
+const bool* const alphabetBitmaps[27] PROGMEM = {
+  a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,y,z,esp
+};
+
+const bool* getLetterBitmap(char c) {
+  if (c >= 'a' && c <= 'z') {
+    return (const bool*) pgm_read_ptr(&alphabetBitmaps[c - 'a']);
+  } else {
+    return nullptr;  // Or a default empty bitmap
+  }
+}
+
+void getStringBitmaps(const char* str, const bool* outBitmaps[], size_t maxLength) {
+  for (size_t i = 0; i < maxLength && str[i] != '\0'; ++i) {
+    outBitmaps[i] = getLetterBitmap(str[i]);
+  }
+}
+
+
+//const int nombreLeds = 5;
+//const int maxChars = 10;
 //
-//void char2fig(bool res[], char l) {
-//  switch (l) {
-//    case 'a':
-//      res = a;
-//    break;
-//     case 'b':
-//      res = b;
-//    break;
-//    case 'c':
-//      res = c;
-//    break;
-//    case 'd':
-//      res = d;
-//    break;
-//    case 'e':
-//      res = e;
-//    break;
-//    case 'f':
-//      res = f;
-//    break;
-//    case 'g':
-//      res = g;
-//    break;
-//    case 'h':
-//      res = h;
-//    break;
-//    case 'i':
-//      res = i;
-//    break;
-//    case 'j':
-//      res = j;
-//    break;
-//    case 'k':
-//      res = k;
-//    break;
-//    case 'l':
-//      res = l;
-//    break;
-//    case 'm':
-//      res = m;
-//    break;
-//    case 'n':
-//      res = n;
-//    break;
-//    case 'o':
-//      res = o;
-//    break;
-//    case 'p':
-//      res = p;
-//    break;
-//    case 'q':
-//      res = q;
-//    break;
-//    case 'r':
-//      res = r;
-//    break;
-//    case 's':
-//      res = s;
-//    break;
-//    case 't':
-//      res = t;
-//    break;
-//    case 'u':
-//      res = u;
-//    break;
-//    case 'v':
-//      res = v;
-//    break;
-//    case 'w':
-//      res = w;
-//    break;
-//    case 'x':
-//      res = x;
-//    break;
-//    case 'y':
-//      res = y;
-//    break;
-//    case 'z':
-//      res = z;
-//    break;
-//    case ' ':
-//      res = esp;
-//    break;  
-//    default:
-//      res = esp;
-//    break;
+//const char* message = "AB";
+//const bool* bitmaps[maxChars];
+//
+//void setup() {
+//  Serial.begin(9600);
+//  getStringBitmaps(message, bitmaps, maxChars);
+//
+//  for (int i = 0; i < 2; i++) {
+//    Serial.print("Letter ");
+//    Serial.println(message[i]);
+//    for (int j = 0; j < nombreLeds; j++) {
+//      bool val = pgm_read_byte(&bitmaps[i][j]);
+//      Serial.print(val ? "O" : "_");
+//      Serial.print(" ");
+//    }
+//    Serial.println();
 //  }
 //}
